@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Stone, Paper, and Scissors</title>
+</head>
+<body>
+    <h1>Stone||Paper||Scissors</h1>
+    <hr>
+    <h2 class="games-text">Let The Games Begin!</h2>
+    <div class="players">
+        <div id="player-1">Player</div>
+        <div id="computer">Computer</div>
+    </div>
+    <div class="score">
+        <div id="player-score">0</div>
+        <div id="computer-score">0</div>
+    </div>
+    <div class="playerBtn">
+        <button type="button" onclick="showPRStone()" id="stoneBtn">Stone</button>
+        <button type="button" onclick="showPPaper()" id="paperBtn">Paper</button>
+        <button type="button" onclick="showPScissors()" id="scissorsBtn">Scissors</button>
+    </div>
+    <div class="rps-player">
+        <img id="Stone" src="Stone.png" alt="Stone" style="display: none;" />
+        <img id="paper" src="paper.png" alt="paper" style="display: none;" />
+        <img id="scissors" src="scissor.png" alt="scissors" style="display: none;" />
+    </div>
+    <div class="rps-computer">
+        <img src="Stone.png" alt="stone" id="stone-computer" style="display: none;" />
+        <img src="paper.png" alt="paper" id="paper-computer" style="display: none;" />
+        <img src="scissor.png" alt="scissors" id="scissors-computer" style="display: none;" />
+    </div>
+    <div id="result-message"></div>
+    <script src="script.js"></script>
+</body>
+</html>

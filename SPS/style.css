@@ -1,0 +1,68 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: #1f1c1c37;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #1e261c;
+    margin-top: 20px;
+    font-size:50px;
+    font-style:italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.games-text {
+    color: #000000;
+    font-size:40px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.players, .score, .playerBtn, .rps-player, .rps-computer, #result-message {
+    margin: 40px 0;
+}
+
+.players {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5em;
+}
+
+.playerBtn button {
+    margin: 0 30px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: 5px solid #03c3f3;
+    background-color: #17edbf;
+    transition: background-color 0.2s, color 0.2s;
+    border-radius: 35%;
+}
+
+.playerBtn button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.rps-player img, .rps-computer img {
+    width: 105px;
+    height: 90px;
+    display:flex;
+
+    margin: 0 100px;
+
+}
+
+#result-message {
+    font-size: 40px;
+    color: #007bff;
+}
